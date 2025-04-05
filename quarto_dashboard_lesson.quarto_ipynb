@@ -1,0 +1,241 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Gapminder 2007\"\n",
+        "format: dashboard\n",
+        "theme: default\n",
+        "---\n",
+        "\n",
+        "\n",
+        "# Layout\n",
+        "\n",
+        "## Row 1 {height=\"30%\"}\n",
+        "\n",
+        "### Column"
+      ],
+      "id": "39757596"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import plotly.express as px\n",
+        "\n",
+        "p = px.line(y=[1,2,3])\n",
+        "p"
+      ],
+      "id": "442f3fd9",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Column\n"
+      ],
+      "id": "965000cd"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "2176dfe9",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Column\n"
+      ],
+      "id": "97f2861d"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "a7de2323",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Row 2 {height=\"70%\"}\n",
+        "### Column {width=\"60%\"}"
+      ],
+      "id": "7a824d43"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "6bee93ae",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Column {width=\"40%\"}\n"
+      ],
+      "id": "fda2ca89"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "e0e2aaa1",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Tabsets\n",
+        "\n",
+        "## Row 1 {height=\"30%\"}\n",
+        "\n",
+        "### Column {.tabset width=\"20%\"}\n",
+        "\n",
+        "#### Tab 1"
+      ],
+      "id": "9f0635a5"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "f1d4eb05",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "#### Tab 2\n",
+        "Hello World\n",
+        "\n",
+        "### Column\n"
+      ],
+      "id": "041563e5"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "3f0cb9e6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Column\n"
+      ],
+      "id": "f3b54fa4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "1054872c",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Row 2 {.tabset height=\"70%\"}\n",
+        "\n",
+        "### Tab 1"
+      ],
+      "id": "5f4e77b1"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "ee509745",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "### Tab 2\n",
+        "Hello World\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Value Boxes\n",
+        "\n",
+        "## {height=\"20%\"}\n",
+        "\n",
+        "::: {.valuebox title=\"Big Number\" color=\"primary\" icon=\"heart\"}\n",
+        "1\n",
+        ":::\n",
+        "\n",
+        "::: {.valuebox title=\"Medium Number\" color=\"success\" icon=\"bar-chart\"}\n",
+        "2\n",
+        ":::\n",
+        "\n",
+        "::: {.valuebox title=\"Small Number\" color=\"dark\" icon=\"arrow-down\"}\n",
+        "3\n",
+        ":::\n",
+        "\n",
+        "##\n"
+      ],
+      "id": "97164fe5"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "p"
+      ],
+      "id": "c78a5532",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "C:\\Users\\HP\\AppData\\Roaming\\Python\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
